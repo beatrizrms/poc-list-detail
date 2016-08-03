@@ -1,0 +1,11 @@
+<ion-view view-title="{{ Dash.title }}">
+  <ion-content>
+    <ion-list>
+      <ion-item ng-repeat="people in list" class="positive item-icon-right" ui-sref="peopledetail({id:$index+1})">
+        <h2>{{people.name}}</h2>
+        <p>Ano de nascimento: {{people.birth_year}}</p>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
