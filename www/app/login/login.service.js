@@ -17,7 +17,7 @@
         function doLogin(username, password) {
           var deferred = $q.defer();
 
-          if(username.toLowerCase() == 'paicom@paicom.com' && password.toLowerCase() == 'password') {
+          if(username.toLowerCase() == 'paicon@paicon.com' && password.toLowerCase() == 'password') {
             deferred.resolve(true);
           } else {
             deferred.reject(false);
